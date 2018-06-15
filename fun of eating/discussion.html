@@ -1,0 +1,596 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>食乐之趣-讨论区</title>
+    <link rel="stylesheet" href="css/discussion.css">
+    <link rel="icon" href="image/shi.ico">
+    <script src="js/jquery/jquery-1.7.2.min.js" type="text/javascript" charset="utf-8"></script>
+    <script src="js/javascript.js"></script>
+    <script src="layer/layer.js"></script>
+    <script src="js/js.js"></script>
+</head>
+<body>
+<!--网页的顶部开始-->
+<div id="top">
+    <div class="top_page">
+        <div class="top_page_l">您好！欢迎来到食乐之趣网站</div>
+        <div class="top_page_r">
+            <ul>
+                <li><a href="#" onclick="collect()">收藏本站</a></li>
+                <li><a href="login.html">账号登录</a> </li>
+            </ul>
+        </div>
+    </div>
+</div>
+<!--网页的顶部结束-->
+
+<!--网页的logo开始-->
+<div class="logo">
+    <div class="logo_l"></div>
+    <div class="logo_r">
+        <div class="logo_r_content">
+            <form action="index.html">
+                <input class="text" type="text" placeholder="搜索帖子标题、帖子内容等...">
+                <input class="btn" type="button" value="搜索" >
+            </form>
+        </div>
+    </div>
+</div>
+<!--网页的logo结束-->
+
+<!--网页的导航开始-->
+<div id="nav">
+    <div class="nav">
+        <ul>
+            <li ><a href="index.html">首页</a></li>
+            <li><a href="#">美食娱乐</a></li>
+            <li class="active"><a href="discussion.html">讨论区</a></li>
+            <li><a href="#">关于我们</a></li>
+        </ul>
+    </div>
+</div>
+
+<!--网页的帖子部分开始-->
+<div id="page">
+    <div class="page-left">
+        <div class="container">
+            <div class="page-title">
+                <ul>
+                    <li  class="active"><a href="">全部</a> </li>
+                    <li><a href="#">自助餐</a> </li>
+                    <li><a href="#">火锅</a> </li>
+                    <li><a href="#">烤鱼</a> </li>
+                    <li><a href="#">川菜</a> </li>
+                    <li><a href="#">赣菜</a> </li>
+                    <li><a href="#">面馆</a> </li>
+                    <li><a href="#">西餐</a> </li>
+                    <li><a href="#" >更多</a></li>
+                </ul>
+            </div>
+            <div class="page-content">
+                <div class="page-list">
+                    <div class="head">
+                        <!-- <a href="#"> -->
+                        <img src="image/head_pic/h1.jpg" height="60" width="60" />
+                        <div class="cover"></div>
+                        <!-- </a> -->
+                    </div>
+                    <div class="write">
+                        <a href="#">一城一故事03期，南昌食（事）记你来说！</a>
+                        <i class="top">顶</i>
+                        <i class="hot">热</i>
+                        <i class="very">精</i>
+                        <i class="rec">荐</i>
+                    </div>
+                    <div class="msg">
+                        <span class="name">暖光</span> &nbsp;&nbsp;2017-5-10 22:19 发表于&nbsp;&nbsp;[
+                        <a href="#">南昌吃喝玩乐</a> ]
+                        <span class="meta">
+
+                            <i class="icon-look"></i>&nbsp;1218&nbsp;&nbsp;
+                            <i class="icon-comment"></i>&nbsp;56&nbsp;&nbsp;
+                            <i class="icon-bag"></i>&nbsp;16&nbsp;&nbsp;
+                            <i class="icon-like"></i>&nbsp;556
+                        </span>
+                    </div>
+                </div>
+                <div class="page-list">
+                    <div class="head">
+                        <!-- <a href="#"> -->
+                        <img src="image/head_pic/h2.jpg" height="60" width="60" />
+                        <div class="cover"></div>
+                        <!-- </a> -->
+                    </div>
+                    <div class="write">
+                        <a href="#">铜锣湾T16购物中心人气餐厅大搜罗~  </a>
+                        <i class="top">顶</i>
+                        <i class="hot">热</i>
+
+                    </div>
+                    <div class="msg">
+                        <span class="name">荒岛初冬</span> &nbsp;&nbsp;2017-4-16 20:19 发表于&nbsp;&nbsp;[
+                        <a href="#">南昌吃喝玩乐</a> ]
+                        <span class="meta">
+                            <i class="icon-look"></i>&nbsp;3944&nbsp;&nbsp;
+                            <i class="icon-comment"></i>&nbsp;126&nbsp;&nbsp;
+                             <i class="icon-bag"></i>&nbsp;6&nbsp;&nbsp;
+                            <i class="icon-like"></i>&nbsp;812
+                        </span>
+                    </div>
+                </div>
+                <div class="page-list">
+                    <div class="head">
+                        <!-- <a href="#"> -->
+                        <img src="image/head_pic/h3.jpg" height="60" width="60" />
+                        <div class="cover"></div>
+                        <!-- </a> -->
+                    </div>
+                    <div class="write">
+                        <a href="#">滕王阁夜游演艺秀双人票任性送！</a>
+                        <i class="top">顶</i>
+                        <i class="hot">热</i>
+
+                        <i class="rec">荐</i>
+                    </div>
+                    <div class="msg">
+                        <span class="name">沧笙踏歌</span> &nbsp;&nbsp;2017-4-11 11:22 发表于&nbsp;&nbsp;[
+                        <a href="#">南昌吃喝玩乐</a> ]
+                        <span class="meta">
+                            <i class="icon-look"></i>&nbsp;2276&nbsp;&nbsp;
+                            <i class="icon-comment"></i>&nbsp;46&nbsp;&nbsp;
+                             <i class="icon-bag"></i>&nbsp;8&nbsp;&nbsp;
+                            <i class="icon-like"></i>&nbsp;358
+                        </span>
+                    </div>
+                </div>
+                <div class="page-list">
+                    <div class="head">
+                        <!-- <a href="#"> -->
+                        <img src="image/head_pic/h4.jpg" height="60" width="60" />
+                        <div class="cover"></div>
+                        <!-- </a> -->
+                    </div>
+                    <div class="write">
+                        <a href="#">夜宵圣地：那些让你停不下来的小龙虾聚集地</a>
+                        <i class="top">顶</i>
+
+                        <i class="rec">荐</i>
+                    </div>
+                    <div class="msg">
+                        <span class="name">心中、那最空的城</span> &nbsp;&nbsp;2017-5-13 19:49 发表于&nbsp;&nbsp;[
+                        <a href="#">南昌吃喝玩乐</a> ]
+                        <span class="meta">
+                            <i class="icon-look"></i>&nbsp;1732&nbsp;&nbsp;
+                            <i class="icon-comment"></i>&nbsp;26&nbsp;&nbsp;
+                            <i class="icon-bag"></i>&nbsp;11&nbsp;&nbsp;
+                            <i class="icon-like"></i>&nbsp;478
+                        </span>
+                    </div>
+                </div>
+                <div class="page-list">
+                    <div class="head">
+                        <!-- <a href="#"> -->
+                        <img src="image/head_pic/h5.jpg" height="60" width="60" />
+                        <div class="cover"></div>
+                        <!-- </a> -->
+                    </div>
+                    <div class="write">
+                        <a href="#">梦时代聚餐指南，并为你喜爱的餐厅投上一票~</a>
+                        <i class="rec">荐</i>
+                    </div>
+                    <div class="msg">
+                        <span class="name">@北栀倾寒</span> &nbsp;&nbsp;2017-3-11 16:46 发表于&nbsp;&nbsp;[
+                        <a href="#">南昌吃喝玩乐</a> ]
+                        <span class="meta">
+                            <i class="icon-look"></i>&nbsp;732&nbsp;&nbsp;
+                            <i class="icon-comment"></i>&nbsp;63&nbsp;&nbsp;
+                            <i class="icon-bag"></i>&nbsp;4&nbsp;&nbsp;
+                            <i class="icon-like"></i>&nbsp;875
+                        </span>
+                    </div>
+                </div>
+                <div class="page-list">
+                    <div class="head">
+                        <!-- <a href="#"> -->
+                        <img src="image/head_pic/h6.jpg" height="60" width="60" />
+                        <div class="cover"></div>
+                        <!-- </a> -->
+                    </div>
+                    <div class="write">
+                        <a href="#">广信传说，传说中的饭店</a>
+                        <i class="top">顶</i>
+                        <i class="hot">热</i>
+
+                        <i class="rec">荐</i>
+                    </div>
+                    <div class="msg">
+                        <span class="name">Cunese</span> &nbsp;&nbsp;2017-3-25 15:18 发表于&nbsp;&nbsp;[
+                        <a href="#">南昌吃喝玩乐</a> ]
+                        <span class="meta">
+                            <i class="icon-look"></i>&nbsp;642&nbsp;&nbsp;
+                            <i class="icon-comment"></i>&nbsp;39&nbsp;&nbsp;
+                             <i class="icon-bag"></i>&nbsp;2&nbsp;&nbsp;
+                            <i class="icon-like"></i>&nbsp;198
+                        </span>
+                    </div>
+                </div>
+                <div class="page-list">
+                    <div class="head">
+                        <!-- <a href="#"> -->
+                        <img src="image/head_pic/h7.jpg" height="60" width="60" />
+                        <div class="cover"></div>
+                        <!-- </a> -->
+                    </div>
+                    <div class="write">
+                        <a href="#">胡记啤酒鸭拌粉～升级版的南昌拌粉</a>
+                        <i class="top">顶</i>
+                        <i class="hot">热</i>
+                        <i class="very">精</i>
+                        <i class="rec">荐</i>
+                    </div>
+                    <div class="msg">
+                        <span class="name">I'm Yours</span> &nbsp;&nbsp;2017-5-16 13:49 发表于&nbsp;&nbsp;[
+                        <a href="#">南昌吃喝玩乐</a> ]
+                        <span class="meta">
+                            <i class="icon-look"></i>&nbsp;367&nbsp;&nbsp;
+                            <i class="icon-comment"></i>&nbsp;15&nbsp;&nbsp;
+                             <i class="icon-bag"></i>&nbsp;2&nbsp;&nbsp;
+                            <i class="icon-like"></i>&nbsp;226
+                        </span>
+                    </div>
+                </div>
+                <div class="page-list">
+                    <div class="head">
+                        <!-- <a href="#"> -->
+                        <img src="image/head_pic/h8.jpg" height="60" width="60" />
+                        <div class="cover"></div>
+                        <!-- </a> -->
+                    </div>
+                    <div class="write">
+                        <a href="#">龙虾季绝不能错过这家店</a>
+
+                        <i class="hot">热</i>
+                        <i class="very">精</i>
+                        <i class="rec">荐</i>
+                    </div>
+                    <div class="msg">
+                        <span class="name">背影里的沉默</span> &nbsp;&nbsp;2017-4-20 11:19 发表于&nbsp;&nbsp;[
+                        <a href="#">南昌吃喝玩乐</a> ]
+                        <span class="meta">
+                            <i class="icon-look"></i>&nbsp;409&nbsp;&nbsp;
+                            <i class="icon-comment"></i>&nbsp;31&nbsp;&nbsp;
+                             <i class="icon-bag"></i>&nbsp;1&nbsp;&nbsp;
+                            <i class="icon-like"></i>&nbsp;157
+                        </span>
+                    </div>
+                </div>
+                <div class="page-list">
+                    <div class="head">
+                        <!-- <a href="#"> -->
+                        <img src="image/head_pic/h9.jpg" height="60" width="60" />
+                        <div class="cover"></div>
+                        <!-- </a> -->
+                    </div>
+                    <div class="write">
+                        <a href="#">一梦时代聚餐指南看这里</a>
+                        <i class="top">顶</i>
+
+                        <i class="rec">荐</i>
+                    </div>
+                    <div class="msg">
+                        <span class="name">趁着年轻丶好好得瑟</span> &nbsp;&nbsp;2017-5-18 19:47 发表于&nbsp;&nbsp;[
+                        <a href="#">南昌吃喝玩乐</a> ]
+                        <span class="meta">
+                            <i class="icon-look"></i>&nbsp;1107&nbsp;&nbsp;
+                            <i class="icon-comment"></i>&nbsp;152&nbsp;&nbsp;
+                             <i class="icon-bag"></i>&nbsp;7&nbsp;&nbsp;
+                            <i class="icon-like"></i>&nbsp;649
+                        </span>
+                    </div>
+                </div>
+                <div class="page-list">
+                    <div class="head">
+                        <!-- <a href="#"> -->
+                        <img src="image/head_pic/h10.jpg" height="60" width="60" />
+                        <div class="cover"></div>
+                        <!-- </a> -->
+                    </div>
+                    <div class="write">
+                        <a href="#">大胃王的饕餮宝地</a>
+                        <i class="top">顶</i>
+
+                        <i class="very">精</i>
+
+                    </div>
+                    <div class="msg">
+                        <span class="name">、期待</span> &nbsp;&nbsp;2017-5-16 09:11 发表于&nbsp;&nbsp;[
+                        <a href="#">南昌吃喝玩乐</a> ]
+                        <span class="meta">
+                            <i class="icon-look"></i>&nbsp;601&nbsp;&nbsp;
+                            <i class="icon-comment"></i>&nbsp;201&nbsp;&nbsp;
+                             <i class="icon-bag"></i>&nbsp;6&nbsp;&nbsp;
+                            <i class="icon-like"></i>&nbsp;375
+                        </span>
+                    </div>
+                </div>
+                <div class="page-list">
+                    <div class="head">
+                        <!-- <a href="#"> -->
+                        <img src="image/head_pic/h11.jpg" height="60" width="60" />
+                        <div class="cover"></div>
+                        <!-- </a> -->
+                    </div>
+                    <div class="write">
+                        <a href="#">带着智慧，愉快的饱足自助餐</a>
+
+                        <i class="hot">热</i>
+                        <i class="very">精</i>
+                        <i class="rec">荐</i>
+                    </div>
+                    <div class="msg">
+                        <span class="name">康忙北鼻来次够i</span> &nbsp;&nbsp;2017-5-17 12:39 发表于&nbsp;&nbsp;[
+                        <a href="#">南昌吃喝玩乐</a> ]
+                        <span class="meta">
+                            <i class="icon-look"></i>&nbsp;524&nbsp;&nbsp;
+                            <i class="icon-comment"></i>&nbsp;58&nbsp;&nbsp;
+                             <i class="icon-bag"></i>&nbsp;5&nbsp;&nbsp;
+                            <i class="icon-like"></i>&nbsp;342
+                        </span>
+                    </div>
+                </div>
+                <div class="page-list">
+                    <div class="head">
+                        <!-- <a href="#"> -->
+                        <img src="image/head_pic/h12.jpg" height="60" width="60" />
+                        <div class="cover"></div>
+                        <!-- </a> -->
+                    </div>
+                    <div class="write">
+                        <a href="#">盛焰铁板烧，不一样的盛宴！</a>
+                        <i class="top">顶</i>
+                        <i class="hot">热</i>
+                        <i class="very">精</i>
+                        <i class="rec">荐</i>
+                    </div>
+                    <div class="msg">
+                        <span class="name">唯有、努力</span> &nbsp;&nbsp;2017-5-15 11:49 发表于&nbsp;&nbsp;[
+                        <a href="#">南昌吃喝玩乐</a> ]
+                        <span class="meta">
+                            <i class="icon-look"></i>&nbsp;532&nbsp;&nbsp;
+                            <i class="icon-comment"></i>&nbsp;102&nbsp;&nbsp;
+                             <i class="icon-bag"></i>&nbsp;3&nbsp;&nbsp;
+                            <i class="icon-like"></i>&nbsp;476
+                        </span>
+                    </div>
+                </div>
+                <div class="page-list">
+                    <div class="head">
+                        <!-- <a href="#"> -->
+                        <img src="image/head_pic/h13.jpg" height="60" width="60" />
+                        <div class="cover"></div>
+                        <!-- </a> -->
+                    </div>
+                    <div class="write">
+                        <a href="#">最后一家，你肯定排过队!</a>
+
+                        <i class="hot">热</i>
+                        <i class="very">精</i>
+                        <i class="rec">荐</i>
+                    </div>
+                    <div class="msg">
+                        <span class="name">青春易逝</span> &nbsp;&nbsp;2017-5-13 21:49 发表于&nbsp;&nbsp;[
+                        <a href="#">南昌吃喝玩乐</a> ]
+                        <span class="meta">
+                            <i class="icon-look"></i>&nbsp;631&nbsp;&nbsp;
+                            <i class="icon-comment"></i>&nbsp;76&nbsp;&nbsp;
+                             <i class="icon-bag"></i>&nbsp;2&nbsp;&nbsp;
+                            <i class="icon-like"></i>&nbsp;397
+                        </span>
+                    </div>
+                </div>
+                <div class="page-list">
+                    <div class="head">
+                        <!-- <a href="#"> -->
+                        <img src="image/head_pic/h14.jpg" height="60" width="60" />
+                        <div class="cover"></div>
+                        <!-- </a> -->
+                    </div>
+                    <div class="write">
+                        <a href="#">来印象江南体验一把文艺吧～</a>
+                        <i class="top">顶</i>
+
+                        <i class="rec">荐</i>
+                    </div>
+                    <div class="msg">
+                        <span class="name">庸人丶</span> &nbsp;&nbsp;2017-5-12 20:34 发表于&nbsp;&nbsp;[
+                        <a href="#">南昌吃喝玩乐</a> ]
+                        <span class="meta">
+                            <i class="icon-look"></i>&nbsp;294&nbsp;&nbsp;
+                            <i class="icon-comment"></i>&nbsp;29&nbsp;&nbsp;
+                             <i class="icon-bag"></i>&nbsp;0&nbsp;&nbsp;
+                            <i class="icon-like"></i>&nbsp;97
+                        </span>
+                    </div>
+                </div>
+                <div class="page-list">
+                    <div class="head">
+                        <!-- <a href="#"> -->
+                        <img src="image/head_pic/h15.jpg" height="60" width="60" />
+                        <div class="cover"></div>
+                        <!-- </a> -->
+                    </div>
+                    <div class="write">
+                        <a href="#">三都油炸味道不错哦...</a>
+                        <i class="top">顶</i>
+
+                        <i class="very">精</i>
+
+                    </div>
+                    <div class="msg">
+                        <span class="name">__空城旧</span> &nbsp;&nbsp;2017-5-12 09:59 发表于&nbsp;&nbsp;[
+                        <a href="#">南昌吃喝玩乐</a> ]
+                        <span class="meta">
+                            <i class="icon-look"></i>&nbsp;452&nbsp;&nbsp;
+                            <i class="icon-comment"></i>&nbsp;62&nbsp;&nbsp;
+                             <i class="icon-bag"></i>&nbsp;4&nbsp;&nbsp;
+                            <i class="icon-like"></i>&nbsp;301
+                        </span>
+                    </div>
+                </div>
+                <div class="page-list">
+                    <div class="head">
+                        <!-- <a href="#"> -->
+                        <img src="image/head_pic/h16.jpg" height="60" width="60" />
+                        <div class="cover"></div>
+                        <!-- </a> -->
+                    </div>
+                    <div class="write">
+                        <a href="#">秀玉红茶坊，泰国香米满嘴留香～</a>
+
+                        <i class="hot">热</i>
+                        <i class="very">精</i>
+                        <i class="rec">荐</i>
+                    </div>
+                    <div class="msg">
+                        <span class="name">不期而遇</span> &nbsp;&nbsp;2017-5-11 09:49 发表于&nbsp;&nbsp;[
+                        <a href="#">南昌吃喝玩乐</a> ]
+                        <span class="meta">
+                            <i class="icon-look"></i>&nbsp;705&nbsp;&nbsp;
+                            <i class="icon-comment"></i>&nbsp;168&nbsp;&nbsp;
+                             <i class="icon-bag"></i>&nbsp;7&nbsp;&nbsp;
+                            <i class="icon-like"></i>&nbsp;683
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <div class="page-link">
+               <div class="link-details">
+                   <ul>
+                       <li ><a href="#" class="up-active">1</a> </li>
+                       <li><a href="#">2</a> </li>
+                       <li><a href="#">3</a> </li>
+                       <li><a href="#">4</a> </li>
+                       <li><a href="#">5</a> </li>
+                       <li><a href="#">...</a> </li>
+                       <li><a href="#">10</a> </li>
+                   </ul>
+                   <input class="link-btn" type="button" value="上一页" >
+                   <input class="link-btn" type="button" value="下一页" >
+               </div>
+            </div>
+        </div>
+    </div>
+    <!--右边-->
+    <div class="page-medium">
+        <div class="page-notice">
+            <span class="notice_icon"></span>
+            <div class="notice">
+                <a href="#" class="notice_title">今日公告</a>
+                <span class="notice_date">
+                    <script type="text/javascript">
+                        var enabled = 0; today = new Date();
+                        var day; var date;
+                        if(today.getDay()==0) day = " 周日";
+                        if(today.getDay()==1) day = " 周一";
+                        if(today.getDay()==2) day = " 周二";
+                        if(today.getDay()==3) day = " 周三";
+                        if(today.getDay()==4) day = " 周四";
+                        if(today.getDay()==5) day = " 周五";
+                        if(today.getDay()==6) day = " 周六";
+                        date =(today.getMonth() + 1 ) + "月" + today.getDate() + "日" + day +"";
+                        document.write(date);
+                    </script>
+                </span>
+            </div>
+            <div class="notice_pic">
+                <a href="#"><img src="image/page_pic/notice.jpg" width="213" height="140"></a>
+            </div>
+        </div>
+    </div>
+    <div class="page-right">
+        <div class="page-send">
+            <span class="sign_icon"></span>
+            <div class="sign">
+                <a href="#" class="sign_up" onclick="sent()">签到</a>
+                <span class="sign_already">已签<strong>0</strong>天</span>
+            </div>
+            <div class="message">
+                <div class="img"></div>
+                <div class="page-text"><a href="#"  onclick="showPostBox()">发表帖子</a> </div>
+            </div>
+        </div>
+    </div>
+    <div class="page-bottom">
+        <div class="page-award">
+            <span class="award_icon"></span>
+            <div class="award">
+                <a href="#" class="award_title">积分抽奖</a>
+                <span class="award_num">剩余积分：<strong>0</strong></span>
+            </div>
+            <div class="award_pic">
+                <a href="#"><img src="image/page_pic/award.png" width="213" height="200"></a>
+            </div>
+            <div class="award_detail">
+                <a href="#">查看详情 &gt;</a>
+            </div>
+        </div>
+    </div>
+
+    <!--发帖div部分-->
+    <div id="post_box">
+        <div class="post_title">
+            <input type="text" id="text_title" placeholder="标题：">
+        </div>
+        <div class="post_content" >
+            <textarea type="text" id="text_content" placeholder="帖子内容（不超过150字）："></textarea>
+        </div>
+        <div class="post_send">
+            <a href="#" onclick="sent()">立即发表</a>
+        </div>
+    </div>
+    <!--发帖div部分结束-->
+
+    <!--回到顶部-->
+    <div class="back_to_top"></div>
+    <!--回到顶部-->
+</div>
+<!--网页的帖子部分结束-->
+<div class="bottom">
+    <div class="content">
+        <div class="b1">
+            <h1 >服务热线</h1>
+            <h2>0791-8xxxxxxx</h2>
+            <h3>客服邮箱</h3>
+            <h4>571477540@qq.com</h4>
+            <p class="own">©2017食乐之趣版权所有</p>
+        </div>
+        <div class="b">
+            <h1 class="c1">网站简介</h1>
+            <h2>关于网站</h2>
+            <h2>加入我们</h2>
+
+        </div>
+        <div class="b">
+            <h1 class="c2">联系我们</h1>
+            <h2>账号密码问题</h2>
+            <h2>新用户注册</h2>
+            <h2>客服热线</h2>
+        </div>
+        <div class="b">
+            <h1 class="c3">网站地图</h1>
+            <h2>美食娱乐</h2>
+            <h2>讨论区</h2>
+        </div>
+        <div class="b">
+            <h1 class="c4">友情链接</h1>
+            <h2>大众点评</h2>
+            <h2>美食天下</h2>
+            <h2>美团网</h2>
+        </div>
+    </div>
+</div>
+
+</body>
+
+</html>

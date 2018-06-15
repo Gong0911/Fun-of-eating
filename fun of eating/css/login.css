@@ -1,0 +1,174 @@
+/* 样式重置 （reset)*/
+body,h1,h2,h3,h4,h5,p,dl,dd,ul,ol,form,input,textarea,th,td,select{margin: 0 ; padding: 0;}
+body{background:#fbfbfb;}
+em{font-style:normal;}
+li{list-style: none;}
+a{text-decoration: none;}
+img{border:none;vertical-align: top;}
+table{border-collapse: collapse;}
+input,textarea{outline: none;}
+textarea{resize: none; overflow:auto;}
+
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 微软雅黑;
+}
+a{
+    text-decoration: none;
+}
+body{
+
+    background: url("../image/bg.png") no-repeat;
+}
+#header{
+    position: relative;
+    width:100%;
+    height: 30px;
+    background: #23af32;
+}
+#header_con{
+    width: 960px;
+    height:40px;
+    margin:0 auto;
+}
+#header_con #login,#register{
+    float: right;
+    line-height:30px;
+    margin-left: 10px;
+}
+#header_con div a{
+   color: #FFFFFF;
+}
+#header_con div a:hover{
+    color: #FF6600;
+}
+.back{
+    position: absolute;
+    top: 5px;
+    left: 30px;
+    width: 80px;
+    height: 20px;
+    -webkit-border-radius:4px;
+    -moz-border-radius:4px;
+    border-radius:4px;
+    background: #ffffff;;
+}
+.back a{
+    display: block;
+    text-align: center;
+    line-height: 20px;
+    font-size: 14px;
+    color:#23af32 ;
+}
+.back a:hover{
+    color: #FF6600;
+}
+
+#login_box{
+    display: none;
+}
+.login-item{
+    margin-top: 25px;
+    margin-left: 20px;
+}
+.login-item input {
+    width: 350px;
+    height: 40px;
+    border:none;
+    border-radius: 6px;
+    background:  rgba(0, 0, 0, 0.1);
+}
+.login-item a{
+    display: block;
+    width: 352px;
+    height:50px;
+    line-height: 50px;
+    background:#23af32;
+    border-radius: 6px;
+    text-align: center;
+    color:white;
+    font-size: 30px;
+}
+.reg_click{
+    margin-top: 10px;
+    float: right;
+    width: 180px;
+    height: 25px;
+}
+.reg_click .message{
+    color: #818181;
+    font-size: 16px;
+}
+.reg_click .message a{
+    display: inline-block;
+    color: #23af32;
+}
+.reg_click .message a:hover{
+    color: #ff6600;
+    text-decoration: underline;
+}
+/*注册界面样式*/
+.reg_div{
+    margin:0 auto;
+    width: 550px;
+    height: 350px;
+    border-radius: 15px;
+    border:2px solid #e6e6e6;
+    text-align: center;
+    margin-top: 140px;
+    box-shadow: 0 0 3px #e6e6e6;
+}
+
+.reg_ul{
+    width: 100%;
+    padding-top: 15px;
+}
+.reg_ul li{
+    margin: auto;
+    overflow: hidden;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.reg_ul li span{
+    float: left;
+    width:100px;
+    text-align:right;
+    display:inline-block;
+    margin-left:30px;
+    margin-top: 10px;
+}
+.reg_ul li span.tip{
+    margin:6px 0 0 10px;
+    width:40px;
+    text-align:left;
+}
+.reg_ul li input{
+    float: left;
+    width: 300px;
+    height: 40px;
+    border:none;
+    border-radius: 6px;
+    background:  rgba(0, 0, 0, 0.1);
+    padding-left: 20px;
+    outline:medium;
+    margin-left: 10px;
+}
+
+.reg_div .reg_btn a{
+    margin-top: 20px;
+    margin-left: 140px;
+    display: block;
+    width: 320px;
+    height:50px;
+    line-height: 50px;
+    background:#23af32;
+    color: white;
+    border-radius: 6px;
+    text-align: center;
+    font-size: 30px;
+}
+
+

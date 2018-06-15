@@ -1,0 +1,609 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>食乐之趣</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="image/shi.ico">
+    <script src="js/jquery/jquery-1.7.2.min.js" type="text/javascript" charset="utf-8"></script>
+    <script src="js/javascript.js"></script>
+
+</head>
+<body>
+<!--网页的顶部开始-->
+<div id="top">
+    <div class="top_page">
+        <div class="top_page_l">您好！欢迎来到食乐之趣网站</div>
+        <div class="top_page_r">
+            <ul>
+                <li><a href="#" onclick="collect()">收藏本站</a></li>
+                <li><a href="login.html">账号登录</a> </li>
+            </ul>
+        </div>
+    </div>
+</div>
+<!--网页的顶部结束-->
+
+<!--网页的logo开始-->
+<div class="logo">
+    <div class="logo_l"></div>
+    <div class="logo_r">
+        <div class="logo_r_content">
+            <form action="index.html">
+                <input class="text" type="text" placeholder="搜索美食、娱乐、店铺... ...">
+                <input class="btn" type="button" value="搜索" >
+            </form>
+        </div>
+    </div>
+</div>
+<!--网页的logo结束-->
+
+<!--网页的导航开始-->
+<div id="nav">
+      <div class="nav">
+          <ul>
+              <li class="active"><a href="#">首页</a></li>
+              <li><a href="#">美食娱乐</a></li>
+              <li><a href="discussion.html">讨论区</a></li>
+              <li><a href="#">关于我们</a></li>
+          </ul>
+      </div>
+</div>
+<!--网页的导航结束-->
+
+<!--网页banner的开始-->
+<div class="banner">
+<div class="banner_left">
+    <div class="left_title">
+        <h3>全部分类</h3>
+    </div>
+    <div class="left_list">
+      <ul>
+          <li class="left_food"><a href="javascript:;">美食<span>自助餐 火锅 烤肉</span><s class="more_pos"></s></a></li>
+          <li class="left_sports"><a href="javascript:;">休闲<span>KTV 运动健身 温泉</span><s class="more_pos"></s></a></li>
+          <li class="left_play"><a href="javascript:;">娱乐<span>桌游 真人CS 电玩</span><s class="more_pos"></s></a></li>
+          <li class="left_page"><a href="javascript:;">热帖<span>今日热帖</span><s class="more_pos"></s></a></li>
+          <li class="left_prize"><a href="javascript:;">抽奖<span>积分抽奖</span><s class="more_pos"></s></a></li>
+      </ul>
+    </div>
+   <div class="left_hide">
+       <div class="left_hide1">
+           <dl>
+             <dt>
+                 <a href="#">美食</a>
+             </dt>
+              <dd> <a href="">火锅</a></dd>
+              <dd> <a href="">烧烤</a></dd>
+              <dd> <a href="">烤鱼</a></dd>
+              <dd> <a href="">香锅</a></dd>
+              <dd> <a href="">西餐</a></dd>
+              <dd> <a href="">海鲜</a></dd>
+              <dd> <a href="">素菜</a></dd>
+              <dd> <a href="">川菜</a></dd>
+              <dd> <a href="">粤菜</a></dd>
+              <dd> <a href="">赣菜</a></dd>
+              <dd> <a href="">早点/夜宵</a></dd>
+              <dd> <a href="">自助餐</a></dd>
+              <dd> <a href="">日本料理</a></dd>
+              <dd> <a href="">东南亚菜</a></dd>
+              <dd> <a href="">创意菜</a></dd>
+              <dd> <a href="">咖啡酒吧</a></dd>
+              <dd> <a href="">小吃快餐</a></dd>
+              <dd> <a href="">其他美食</a></dd>
+           </dl>
+       </div>
+       <div class="left_hide2">
+           <dl>
+               <dt>
+                   <a href="#">休闲</a>
+               </dt>
+               <dd> <a href="">KTV</a></dd>
+               <dd> <a href="">展览</a></dd>
+               <dd> <a href="">养生休闲</a></dd>
+               <dd> <a href="">温泉洗浴</a></dd>
+               <dd> <a href="">运动健身</a></dd>
+               <dd> <a href="">桌游电玩</a></dd>
+               <dd> <a href="">演出赛事</a></dd>
+               <dd> <a href="">咖啡茶馆</a></dd>
+               <dd> <a href="">4D/5D电影</a></dd>
+               <dd> <a href="">其他休闲</a></dd>
+           </dl>
+       </div>
+       <div class="left_hide3">
+           <dl>
+               <dt>
+                   <a href="#">娱乐</a>
+               </dt>
+               <dd> <a href="">KTV</a></dd>
+               <dd> <a href="">展览</a></dd>
+               <dd> <a href="">养生休闲</a></dd>
+               <dd> <a href="">温泉洗浴</a></dd>
+               <dd> <a href="">运动健身</a></dd>
+               <dd> <a href="">桌游电玩</a></dd>
+               <dd> <a href="">演出赛事</a></dd>
+               <dd> <a href="">咖啡茶馆</a></dd>
+               <dd> <a href="">4D/5D电影</a></dd>
+               <dd> <a href="">其他娱乐</a></dd>
+           </dl>
+       </div>
+       <div class="left_hide4">
+           <dl>
+               <dt>
+                   <a href="#">热帖</a>
+               </dt>
+               <dd> <a href="">今日热帖</a></dd>
+               <dd> <a href="">其他帖子</a></dd>
+           </dl>
+       </div>
+       <div class="left_hide5">
+           <dl>
+               <dt>
+                   <a href="#">抽奖</a>
+               </dt>
+               <dd> <a href="">积分抽奖</a></dd>
+               <dd> <a href="">其他抽奖活动</a></dd>
+           </dl>
+       </div>
+   </div>
+</div>
+<div class="banner_right">
+    <div id="innerht">
+        <ul>
+            <li><img src="image/mei1.jpg" width="710"  height="320"></li>
+            <li><img src="image/mei2.jpg" width="710"  height="320"></li>
+            <li><img src="image/mei3.jpg" width="710"  height="320"></li>
+            <li><img src="image/mei4.jpg" width="710"  height="320"></li>
+            <li><img src="image/mei5.jpg" width="710"  height="320"></li>
+        </ul>
+        <ol></ol>
+        <button id="left">&lt;</button><button id="right">&gt;</button>
+    </div>
+</div>
+    <!--回到顶部-->
+    <div class="back_to_top"></div>
+    <!--回到顶部结束-->
+</div>
+<!--网页banner的结束-->
+
+<!--网页内容的开始-->
+
+<!--美食推荐板块-->
+<div class="recommend"><span>1F</span><strong>热门美食</strong></div>
+<div class="recommend_list">
+    <ul>
+        <li> <a href="" class="a1">
+            <img src="image/img_list/p1.jpg">
+            <div class ="divA">
+                <p class="p1">艾慕尚自助牛排（中山路）</p>
+                <p class="p2"><span>¥72</span><s>¥89</s></p>
+            </div>
+        </a>
+            <a href="" class = "a2">
+                <p class="p3">艾慕尚自助牛排</p>
+                <p class="p4"><span>¥72</span></p>
+                <p class="p5">立即查看</p>
+            </a>
+        </li>
+        <li> <a href="" class="a1">
+            <img src="image/img_list/p2.jpg">
+            <div class ="divA">
+                <p class="p1">正新鸡排（南昌县）</p>
+                <p class="p2"><span>¥10.9</span><s>¥20</s></p>
+            </div>
+        </a>
+            <a href="" class = "a2">
+                <p class="p3">正新鸡排</p>
+                <p class="p4"><span>¥10.9</span></p>
+                <p class="p5">立即查看</p>
+            </a>
+        </li>
+        <li> <a href="" class="a1">
+            <img src="image/img_list/p3.jpg">
+            <div class ="divA">
+                <p class="p1">紫燕百味鸡（青山湖区）</p>
+                <p class="p2"><span>¥19.2</span><s>¥20</s></p>
+            </div>
+        </a>
+            <a href="" class = "a2">
+                <p class="p3">紫燕百味鸡</p>
+                <p class="p4"><span>¥19.2</span></p>
+                <p class="p5">立即查看</p>
+            </a>
+        </li>
+        <li> <a href="" class="a1">
+            <img src="image/img_list/p4.jpg">
+            <div class ="divA">
+                <p class="p1">龙门花甲（胜利路）</p>
+                <p class="p2"><span>¥15.8</span><s>¥17</s></p>
+            </div>
+        </a>
+            <a href="" class = "a2">
+                <p class="p3">龙门花甲</p>
+                <p class="p4"><span>¥15.8</span></p>
+                <p class="p5">立即查看</p>
+            </a>
+        </li>
+        <li> <a href="" class="a1">
+            <img src="image/img_list/p5.jpg">
+            <div class ="divA">
+                <p class="p1"> 黄记煌三汁焖锅 （红谷滩新区）</p>
+                <p class="p2"><span>¥80</span><s>¥100</s></p>
+            </div>
+        </a>
+            <a href="" class = "a2">
+                <p class="p3">黄记煌三汁焖锅</p>
+                <p class="p4"><span>¥80</span></p>
+                <p class="p5">立即查看</p>
+            </a>
+        </li>
+        <li> <a href="" class="a1">
+            <img src="image/img_list/p6.jpg">
+            <div class ="divA">
+                <p class="p1">峯法式铁板烧（绿地中心）</p>
+                <p class="p2"><span>¥188</span><s>¥200</s></p>
+            </div>
+        </a>
+            <a href="" class = "a2">
+                <p class="p3">峯法式铁板烧</p>
+                <p class="p4"><span>¥188</span></p>
+                <p class="p5">立即查看</p>
+            </a>
+        </li>
+    </ul>
+</div>
+<div class="more"><p class="clickMore"><a href="#">更多美食推荐，请点击查看>></a> </p> </div>
+<!--休闲娱乐板块-->
+<div class="food"><span>2F</span><strong>休闲娱乐</strong></div>
+<div class="recommend_list">
+    <ul>
+        <li> <a href="" class="a1">
+            <img src="image/img_list/x1.jpg">
+            <div class ="divA">
+                <p class="p1">M-ROOM密室逃脱（系马桩）</p>
+                <p class="p2"><span>¥69</span><s>¥100</s></p>
+            </div>
+        </a>
+            <a href="" class = "a2">
+                <p class="p3">M-ROOM密室逃脱</p>
+                <p class="p4"><span>¥69</span></p>
+                <p class="p5">立即查看</p>
+            </a>
+        </li>
+        <li> <a href="" class="a1">
+            <img src="image/img_list/x2.jpg">
+            <div class ="divA">
+                <p class="p1">诺亚方舟动漫游戏体验中心（新建县）</p>
+                <p class="p2"><span>¥36</span><s>¥65</s></p>
+            </div>
+        </a>
+            <a href="" class = "a2">
+                <p class="p3">诺亚方舟动漫游戏体验中心</p>
+                <p class="p4"><span>¥36</span></p>
+                <p class="p5">立即查看</p>
+            </a>
+        </li>
+        <li> <a href="" class="a1">
+            <img src="image/img_list/x3.jpg">
+            <div class ="divA">
+                <p class="p1">阿咪果量贩式ktv（青山湖区）</p>
+                <p class="p2"><span>¥66</span><s>¥498</s></p>
+            </div>
+        </a>
+            <a href="" class = "a2">
+                <p class="p3">阿咪果量贩式ktv</p>
+                <p class="p4"><span>¥66</span></p>
+                <p class="p5">立即查看</p>
+            </a>
+        </li>
+        <!--第四张 -->
+        <li> <a href="" class="a1">
+            <img src="image/img_list/x4.jpg">
+            <div class ="divA">
+                <p class="p1">阳明弓道箭馆 （京东店）</p>
+                <p class="p2"><span>¥60</span><s>¥120</s></p>
+            </div>
+        </a>
+            <a href="" class = "a2">
+                <p class="p3">阳明弓道箭馆 </p>
+                <p class="p4"><span>¥60</span></p>
+                <p class="p5">立即查看</p>
+            </a>
+        </li>
+        <li> <a href="" class="a1">
+            <img src="image/img_list/x5.jpg">
+            <div class ="divA">
+                <p class="p1">云境生态水城（青山湖区）</p>
+                <p class="p2"><span>¥79</span><s>¥148</s></p>
+            </div>
+        </a>
+            <a href="" class = "a2">
+                <p class="p3">云境生态水城</p>
+                <p class="p4"><span>¥79</span></p>
+                <p class="p5">立即查看</p>
+            </a>
+        </li>
+        <li> <a href="" class="a1">
+            <img src="image/img_list/x6.jpg">
+            <div class ="divA">
+                <p class="p1">壹品轩茶馆（西湖区）</p>
+                <p class="p2"><span>¥88</span><s>¥198</s></p>
+            </div>
+        </a>
+            <a href="" class = "a2">
+                <p class="p3">壹品轩茶馆</p>
+                <p class="p4"><span>¥88</span></p>
+                <p class="p5">立即查看</p>
+            </a>
+        </li>
+    </ul>
+</div>
+<div class="more"><p class="clickMore"><a href="#">更多休闲娱乐，请点击查看>></a> </p> </div>
+<!--热帖推送板块-->
+<div class="entertainment"><span>3F</span><strong>热帖推送  </strong></div>
+<div class="recommend_page">
+    <div class="page_left">
+       <div class="title">
+           <div class="left_title"><h4>热点推荐</h4></div>
+           <div class="img_more"><a href="discussion.html" ><img src="image/more.gif" alt="更多"></a></div>
+       </div>
+        <div class="left_content">
+            <ul>
+                <li>
+                    <a class="content_title" href="#">[南昌吃喝玩乐]</a>
+                    <a class="content_hot" href="discussion.html">盛焰铁板烧，不一样的盛宴！</a>
+                    <span class="content_misc"><strong>1267</strong>人气</span>
+                </li>
+                <li>
+                    <a class="content_title" href="">[南昌吃喝玩乐]</a>
+                    <a class="content_hot" href="discussion.html">一城一故事03期，南昌食（事）记你来说！</a>
+                    <span class="content_misc"><strong>1218</strong>人气</span>
+                </li>
+                <li>
+                    <a class="content_title" href="">[南昌吃喝玩乐]</a>
+                    <a class="content_hot" href="discussion.html">滕王阁夜游演艺秀双人票任性送！</a>
+                    <span class="content_misc"><strong>2276</strong>人气</span>
+                </li>
+                <li>
+                    <a class="content_title" href="">[南昌吃喝玩乐]</a>
+                    <a class="content_hot" href="discussion.html">铜锣湾T16购物中心人气餐厅大搜罗~</a>
+                    <span class="content_misc"><strong>3944</strong>人气</span>
+                </li>
+                <li>
+                    <a class="content_title" href="">[南昌吃喝玩乐]</a>
+                    <a class="content_hot" href="discussion.html">夜宵圣地：那些让你停不下来的小龙虾聚集地</a>
+                    <span class="content_misc"><strong>221</strong>人气</span>
+                </li>
+                <li>
+                    <a class="content_title" href="">[南昌吃喝玩乐]</a>
+                    <a class="content_hot" href="discussion.html">梦时代聚餐指南，并为你喜爱的餐厅投上一票~</a>
+                    <span class="content_misc"><strong>4689</strong>人气</span>
+                </li>
+                <li>
+                    <a class="content_title" href="">[南昌吃喝玩乐]</a>
+                    <a class="content_hot" href="discussion.html">广信传说，传说中的饭店</a>
+                    <span class="content_misc"><strong>208</strong>人气</span>
+                </li>
+                <li>
+                    <a class="content_title" href="">[南昌吃喝玩乐]</a>
+                    <a class="content_hot" href="discussion.html">胡记啤酒鸭拌粉～升级版的南昌拌粉</a>
+                    <span class="content_misc"><strong>378</strong>人气</span>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="page_right">
+       <div class="title_r">
+           <div class="right_title"><h4>精选话题</h4></div>
+           <div class="imgMore"><a href="discussion.html" ><img src="image/more.gif" alt="更多"></a></div>
+       </div>
+        <div class="right_content">
+            <ul>
+                <li>
+                    <strong class="number">01</strong>
+                    <a href="discussion.html" class="topic">龙虾季绝不能错过这家店</a>
+                </li>
+                <li>
+                    <strong class="number">02</strong>
+                    <a href="discussion.html" class="topic">最后一家你肯定排过队！</a>
+                </li>
+                <li>
+                <strong class="number">03</strong>
+                <a href="discussion.html" class="topic">梦时代聚餐指南看这里</a>
+            </li>
+                <li>
+                    <strong>04</strong>
+                    <a href="discussion.html" class="topic">带着智慧，愉快的饱足自助餐</a>
+                </li>
+                <li>
+                    <strong>05</strong>
+                    <a href="discussion.html" class="topic">传说中的饭店</a>
+                </li>
+                <li>
+                    <strong>06</strong>
+                    <a href="discussion.html" class="topic">当黑卡遇上自助餐</a>
+                </li>
+                <li>
+                    <strong>07</strong>
+                    <a href="discussion.html" class="topic">好吃又好看的蛋糕</a>
+                </li>
+                <li>
+                    <strong>08</strong>
+                    <a href="discussion.html" class="topic">大胃王的饕餮宝地</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<!--网页内容的结束-->
+
+<!--网页底部开始-->
+<div class="bottom">
+    <div class="content">
+        <div class="b1">
+            <h1 >服务热线</h1>
+            <h2>0791-8xxxxxxx</h2>
+            <h3>客服邮箱</h3>
+            <h4>571477540@qq.com</h4>
+            <p class="own">©2017食乐之趣版权所有</p>
+        </div>
+        <div class="b">
+            <h1 class="c1">网站简介</h1>
+            <h2>关于网站</h2>
+            <h2>加入我们</h2>
+
+        </div>
+        <div class="b">
+            <h1 class="c2">联系我们</h1>
+            <h2>账号密码问题</h2>
+            <h2>新用户注册</h2>
+            <h2>客服热线</h2>
+        </div>
+        <div class="b">
+            <h1 class="c3">网站地图</h1>
+            <h2>美食娱乐</h2>
+            <h2>讨论区</h2>
+        </div>
+        <div class="b">
+            <h1 class="c4">友情链接</h1>
+            <h2>大众点评</h2>
+            <h2>美食天下</h2>
+            <h2>美团网</h2>
+        </div>
+    </div>
+</div>
+<!--网页底部结束-->
+</body>
+
+<script type="text/javascript">
+//轮播图原生js
+    (function(window){
+        // 封装document.getElementById函数
+        function $(id){
+            return document.getElementById(id);
+        }
+        // 获取相应对象
+        var innerht = $("innerht"),ul = innerht.children[0],ulli = ul.children[0];
+        // 获取ul的第一个li克隆并插入ul最后
+        ul.appendChild( ulli.cloneNode(true) );
+        // 获取一个banner的宽度
+        var liWidth = innerht.offsetWidth;
+        var ulLis = ul.children, ol = ul.nextElementSibling;
+        // 设定ul的宽度
+        ul.style.width = ulLis.length + "00%";
+        // 设定每个li的宽度
+        for( i = 0 ; i < ulLis.length ; i++ ){
+            ulLis[i].style.width = 100 / ulLis.length + "%";
+        }
+        for( i = 0 ; i < ulLis.length - 1 ; i++ ){
+            var li = document.createElement("li");
+            li.innerHTML = i + 1 ;
+            ol.appendChild(li);
+        }
+        var olLis = ol.children;
+        // 为第一个li添加选中状态
+        olLis[0].className = "current";
+        var left = $("left"),right = $("right");
+        //给大盒子绑定鼠标事件
+        innerht.onmouseover = function(){
+            left.style.display = "block";
+            right.style.display = "block";
+            clearInterval(clock);
+
+        };
+        innerht.onmouseout = function(){
+            left.style.display = "none";
+            right.style.display = "none";
+            clock = setInterval(right.onclick, 3000);
+        };
+        //为ol中的li添加鼠标事件
+        for( i = 0 ; i < olLis.length ; i++ ){
+            // 为每个li添加自定义属性
+            olLis[i].index = i;
+            olLis[i].onmouseover = function(){
+                for( j = 0 ; j < olLis.length ; j++ ){
+                    olLis[j].className = "";
+                };
+                this.className = "current";
+                var index = this.index;
+                s = index;
+                squire = index;
+                var target = -index * liWidth ;
+                animate(ul,target);
+            }
+        }
+        // 左右按钮点击事件
+        var s = 0 , squire = 0 ;
+        right.onclick = function(){
+            if( s === olLis.length ){
+                ul.style.left = "0px";
+                s = 0 ;
+            }
+            s++;
+            var target = -s * liWidth ;
+            animate(ul,target);
+            if( squire === olLis.length - 1 ){
+                squire = 0
+            }else{
+                squire++;
+            }
+            for( i = 0 ; i < olLis.length ; i++ ){
+                olLis[i].className = "";
+            };
+            olLis[squire].className = "current";
+        };
+        left.onclick = function(){
+            if( s === 0 ){
+                ul.style.left = -olLis.length * liWidth + "px";
+                s = olLis.length;
+            }
+            s--;
+            var target = -s * liWidth ;
+            animate(ul,target);
+            if( squire === 0 ){
+                squire = olLis.length - 1 ;
+            }else{
+                squire--;
+            };
+            for( i = 0 ; i < olLis.length ; i++ ){
+                olLis[i].className = "";
+            };
+            olLis[squire].className = "current";
+        };
+        // 添加自动播放事件
+        var clock = null ;
+        clock = setInterval(right.onclick, 3000);
+        //封装animate函数
+        function animate(obj,target){
+            clearInterval(obj.timer);
+            obj.timer = setInterval(function(){
+                var leader = obj.offsetLeft , step = 30 ;
+                step = leader < target ? step : -step ;
+                if( Math.abs( leader - target ) >= Math.abs( step ) ){
+                    leader = leader + step;
+                    obj.style.left = leader + "px" ;
+                }else{
+                    obj.style.left = target + "px" ;
+                    clearInterval(obj.timer);
+                }
+            }, 15);
+        }
+    })(window);
+
+//悬停效果
+    $('li').mouseenter(function(){
+        $(this).find('.divA').stop().animate({bottom:'-66px'});
+        $(this).find('.a2').css({left:'0'});
+        $(this).children('.a2').find('.p3').css({left:'0'});
+        $(this).children('.a2').find('.p4').css({transform:'scale(1)'});
+        $(this).children('.a2').find('.p5').css({bottom:'25px'})
+    });
+    $('li').mouseleave(function(){
+        $(this).find('.divA').stop().animate({bottom:'0px'});
+        $(this).find('.a2').css({left:-$(this).width()});
+        $(this).children('.a2').find('.p3').css({left:-$(this).width()});
+        $(this).children('.a2').find('.p4').css({transform:'scale(1.3)'});
+        $(this).children('.a2').find('.p5').css({bottom:'-50px'})
+    });
+</script>
+</html>
